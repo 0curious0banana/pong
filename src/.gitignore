@@ -1,0 +1,38 @@
+# Ignore all
+*.exe
+*.dll
+*.wav
+*.ttf
+*CMakeLists.txt.user
+*CMakeCache.txt
+*CMakeFiles
+*CMakeScripts
+*Testing
+*Makefile
+*cmake_install.cmake
+*install_manifest.txt
+*compile_commands.json
+*CTestTestfile.cmake
+*_deps
+*.la
+*.a
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
+# Ignore files with extension `.class` & `.exe`
+*.class
+*.exe
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+# Unignore all `.exe` in `bin` dir
+!*/bin/*.exe

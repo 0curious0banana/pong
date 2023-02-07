@@ -4,7 +4,9 @@
             "name": "Win32",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/sdl/include"
+                "${workspaceFolder}/sdl/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/sdl/include/SDL2"
             ],
             "defines": [
                 "_DEBUG",
@@ -14,7 +16,8 @@
             "windowsSdkVersion": "10.0.22000.0",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-msvc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4
